@@ -1,0 +1,36 @@
+//Na URL do site coloque "index.php?a=3&b=6" para alterar os valores de a e b
+
+<DOCTYPE html>
+	<html lnag="pt-br"
+	<head>
+		<style>
+		body{
+			background-color:#F1F2F2;
+		}
+	</style>
+		<meta charset="utf-8">
+		<title>Teste Aula 3</title>
+</head>
+<body>
+	<h1>Operadores</h1>
+	<?php
+
+	$var1=$_GET["a"];
+	$var2=$_GET["b"];
+
+	echo "<h2>Valores recebidos pela URL: $var1 e $var2</h2>";
+	echo "</br>O valor ABSOLUTO de $var2 é " . abs($var2);
+
+	echo "</br>O valor de $var1 <sup>$var2</sup> é " . pow($var1, $var2);
+	echo "</br>A raiz de $var1 é " . sqrt($var1);
+
+	echo "</br>O valor de $var2 arredondado com 'round' é " . round($var2);
+
+	echo "</br>O valor de $var2 arredondado com 'ceil' é " . ceil($var2);
+	echo "</br>O valor de $var2 arredondado com 'floor' é " . floor($var2);
+
+	echo "</br>O valor inteiro de $var 1 é " . intval($var1);
+
+	echo "</br>O valor de $var1 em moeda é R$ " . number_format($var1,2,",",".");
+	?>
+</body>
