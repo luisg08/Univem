@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lnag="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Aula 02</title>
+</head>
+<body>
+    <h2>Aula 2, uso de variáveis:</h2>
+    <?php
+    //Diferente de C++, ao invés de "&" para atribuir uma variável se utiliza "$"
+        echo "Estudo de variáveis</br>";
+        echo 'Atribuição por $</br>';
+        $idade = 18;
+        $nome = "Vinicius";
+        echo "<h2>Resultado</h2></br>";
+        echo "Nome: $nome , Idade: $idade";
+    ?>
+</body>
+</html>
