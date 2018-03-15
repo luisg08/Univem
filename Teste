@@ -1,0 +1,23 @@
+<DOCTYPE html>
+	<html lnag="pt-br"
+	<head>
+		<meta charset="utf-8">
+		<title>Teste Aula 3</title>
+</head>
+<body>
+	<h1>Demonstração de Operadores</h1>
+	<?php
+	    $var1=10;
+	    $var2=2;
+	    $soma=$var1+$var2;
+	    echo "Resultado=$soma </br>";
+	    $sub=$var1-$var2;
+	    echo "Resultado Sub=$sub </br>";
+	    $mult=$var1*$var2;
+	    echo "Resultado mult=$mult </br>";
+	    $div=$var1/$var2;
+	    echo "Resultado div=$div </br>";
+	    $rest=$var1%$var2;
+	    echo "Resto divisao=$rest </br>";
+	?>
+</body>
