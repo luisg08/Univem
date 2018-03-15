@@ -1,0 +1,7 @@
+//Cor de fundo da página
+<head>
+<style>
+        body{                                ( R   G  B)
+        background=color:#"Cor (00 00 00)
+}
+</style>
