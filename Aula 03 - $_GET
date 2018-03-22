@@ -1,7 +1,7 @@
 //Na URL do site coloque "index.php?a=3&b=6" para alterar os valores de a e b
 
 <DOCTYPE html>
-	<html lnag="pt-br"
+	<html lnag="pt-br">
 	<head>
 		<style>
 		body{
