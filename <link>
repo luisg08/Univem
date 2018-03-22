@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Freehand" rel="stylesheet">
+  //https://fonts.google.com/ (site de fontes)
+	<title>Teste</title>
+</head>
+<body>
+	<div class="interna">
+	<?php
+		$var1=$_GET["a"];
+		echo "Variável incrementada:".$var1++;
+		echo "</br>Pós incremento:$var1";
+	?>
+	</div>
+</body>
+</html>
