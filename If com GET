@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lnag="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Aula 7</title>
+</head>
+<body>
+    <h2>String</h2>
+    <?php
+   		function multi ($var1,$var2){
+    		return $var1*$var2;
+    	}
+    	$var4=$_GET['a'];
+    	$var5=$_GET['b'];
+    	$var6=$_GET['c'];
+    	if($var4 == "m")
+    		$result=multi($var5,$var6);
+    	printf("%d",$result);
+    ?>
+</body>
+</html>
